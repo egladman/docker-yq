@@ -44,8 +44,8 @@ docker run --rm yq:4.27.2 yq --version
 ## Build
 
 ```
-make image
-make image IMG_VARIANT=busybox
+make
+make IMG_VARIANT=busybox
 ```
 
 ## Acknowledgements
