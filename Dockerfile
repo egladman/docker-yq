@@ -61,6 +61,8 @@ RUN set -eux; \
 
 FROM scratch
 
+LABEL org.opencontainers.image.authors="eli@gladman.cc"
+
 ARG DESTDIR
 ARG UID
 
