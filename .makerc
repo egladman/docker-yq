@@ -1,0 +1,13 @@
+IMG_VERSION = 4.27.2
+IMG_REPOSITORY = yq
+IMG_VARIANT = core
+IMG_PLATFORMS = linux/amd64 \
+                linux/arm64 \
+                linux/arm/v7 \
+                linux/arm/v6 \
+                linux/386 \
+                linux/ppc64le \
+                linux/s390x
+
+.BUILD_YQ_VERSION := $(IMG_VERSION)
+.BUILD_VARIANT := $(IMG_VARIANT)
