@@ -41,7 +41,7 @@ RUN set -eux; \
 
 FROM builder as yq-build
 
-ARG YQ_VERSION=4.27.2
+ARG YQ_VERSION=4.34.2
 ARG YQ_GIT_PREFIX=https://github.com/mikefarah
 ARG YQ_GIT_TAG=v${YQ_VERSION}
 ARG CGO_ENABLED=0
